@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+header {
+    background-image: url(images/banner/banner3.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    /* width: 1600px; */
+}
+.hero-section {
+    display: flex;
+    justify-content: right;
+}
+ .content {
+    width: 525px;
+    /* border: 1px solid red; */
+    margin: 216px 230px 166px auto;
+    text-align: right;
+}
+.content h1 {
+    font-size: 65px;
+    color: #ffff;
+    margin-bottom: 24px;
+}
+.content p {
+    color: #FFFFFF;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+.btn {
+    padding: 20px 25px;
+    font-size: 20px;
+    color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#failures {
+    max-width: 1072px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 87px; */
+    margin: 131px 332px 0 auto;
+}
+#failures .failures-img img {
+    width: 451px;
+}
+.failures-content {
+    max-width: 349px;
+}
+.failures-content h1 {
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.failures-content p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+#plan {
+    width: 1141px;
+    text-align: center;
+    margin: 129px auto;
+}
+.plan-container h1 {
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+.plan-container .plan-box {
+    display: flex;
+    justify-content: space-between;
+}
+.plan-box .card img {
+    width: 62.96px;
+}
+.card h2 {
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+.card p {
+    font-size: 25px;
+    color: #737272;
+}
+#another {
+    width: 1140px;
+    /* border: 1px solid red; */
+    margin: 130px auto;
+    background-image: url(images/watch.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+#another .box {
+/* width: 459px; */
+/* border: 3px solid rebeccapurple; */
+background-image: url(images/gradient1.png);
+padding-top: 56px ;
+padding-bottom: 59px;
+padding-right: 617px;
+padding-left: 64px;
+}
+.box h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+footer {
+    max-width: 1600px;
+    background-color: #151414;
+}
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 230px;
+    /* margin: 130px auto; */
+}
+.Future-box {
+    /* border: 1px solid red; */
+    width: 485px;
+}
+.Future-box h2 {
+    color: #F8F8F8;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+.Future-box p {
+    color: #FFFFFF;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+.Subscribe-box {
+    width: 325px;
+    text-align: left;
+}
+.Future-box .icon p {
+    margin-bottom: 16px;
+}
+.icon img {
+    width: 47px;
+    gap: 17px;
+}
+.Subscribe-box h4 {
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.Subscribe-box input[type="text"] {
+    border: 1px solid #FFFFFF;
+    width: 325px;
+    height: 64px;
+    color: #F3F3F3;
+    font-size: 18px;
+    margin: 31px 16px;
+    background-color: #151414;
+}
+.Subscribe-box button {
+    background-color: #005FAC;
+    font-size: 20px;
+    color: #FFFFFF;
+}
