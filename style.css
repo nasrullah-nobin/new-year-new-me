@@ -10,15 +10,17 @@ body {
 header {
     background-image: url(images/banner/banner3.png);
     background-repeat: no-repeat;
-    object-fit: cover;
-    /* width: 1600px; */
+    background-size: cover;
+    /* object-fit: cover; */
+    background-position: center;
+    width: 100%;
 }
 .hero-section {
     display: flex;
     justify-content: right;
 }
  .content {
-    width: 525px;
+    max-width: 525px;
     /* border: 1px solid red; */
     margin: 216px 230px 166px auto;
     text-align: right;
@@ -97,7 +99,7 @@ header {
     margin: 130px auto;
     background-image: url(images/watch.png);
     background-repeat: no-repeat;
-    object-fit: cover;
+    background-size: cover;
 }
 #another .box {
 /* width: 459px; */
@@ -144,9 +146,13 @@ footer {
 .Future-box .icon p {
     margin-bottom: 16px;
 }
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
 .icon img {
     width: 47px;
-    gap: 17px;
 }
 .Subscribe-box h4 {
     font-size: 25px;
