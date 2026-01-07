@@ -157,6 +157,7 @@ footer {
 .Subscribe-box h4 {
     font-size: 25px;
     color: #FFFFFF;
+    margin-bottom: 31px;
 }
 .Subscribe-box input[type="text"] {
     border: 1px solid #FFFFFF;
@@ -164,11 +165,12 @@ footer {
     height: 64px;
     color: #F3F3F3;
     font-size: 18px;
-    margin: 31px 16px;
+    padding: 31px 16px;
     background-color: #151414;
 }
 .Subscribe-box button {
     background-color: #005FAC;
     font-size: 20px;
     color: #FFFFFF;
+    margin-top: 16px;
 }
